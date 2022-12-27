@@ -50,7 +50,7 @@ function HeroHome() {
 							data-aos='zoom-y-out'
 						>
 							Increase your community's engagement by{' '}
-							<span className='bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400'>
+							<span className='bg-clip-text text-transparent bg-gradient-to-r from-primary to-indigo-900'>
 								5X
 							</span>
 						</h1>
@@ -72,7 +72,7 @@ function HeroHome() {
 								<div>
                                     <Link to="/signup">
 									<a
-										className='btn text-white bg-blue-600 hover:bg-blue-700 w-full mb-4 sm:w-auto sm:mb-0'
+										className='btn text-white bg-primary hover:bg-primary-dark w-full mb-4 sm:w-auto sm:mb-0'
 										href='#0'
 									>
 										 Sign Up
@@ -108,7 +108,7 @@ function HeroHome() {
 									alt='Hero'
 								/>
 								<svg
-									className='absolute inset-0 max-w-full mx-auto md:max-w-none h-auto'
+									className='absolute inset-0 max-w-full mx-auto md:max-w-none h-auto '
 									width='768'
 									height='432'
 									viewBox='0 0 768 432'

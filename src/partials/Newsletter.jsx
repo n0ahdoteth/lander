@@ -113,7 +113,7 @@ function Newsletter() {
 							<div className='flex flex-wrap -mx-3 mt-6'>
 								<div className='w-full px-3'>
 									<Link to='/signup'>
-										<button className='btn text-white bg-blue-600 hover:bg-blue-700 w-full'>
+										<button className='btn text-white bg-primary hover:bg-primary-dark w-full'>
 											Improve your business now and sign up
 										</button>
 									</Link>

@@ -13,41 +13,39 @@ function SignUp() {
 			{/*  Page content */}
 			<main className='flex-grow'>
 				<section className='bg-gradient-to-b from-gray-100 to-white'>
-					<div className='max-w-6xl mx-auto px-4 sm:px-6'>
-						<div className='pt-32 pb-12 md:pt-40 md:pb-20'>
+					<div className='max-w-6xl mx-auto px-4 sm:px-6 '>
+						<div className='flex items-center justify-center min-h-screen'>
 							{/* Page header */}
-							<div className='max-w-3xl mx-auto text-center pb-12 md:pb-20'>
-								<h1 className='h1'>
-									Lander
-								</h1>
-							</div>
+
 
 							{/* Form */}
-							<div className='max-w-sm mx-auto'>
+							<div className='max-w-md sm:p-12 mx-auto sm:border border-gray-300 rounded-lg'>
+							<div className='pb-6'>
+								<h1 className='h1 flex items-center justify-center'>
+									<img
+										className="h-14"
+										src="https://i.imgur.com/lpPrluJ.png"
+										alt=""
+									/> Lander
+								</h1>
+							</div>
 								<div className='flex flex-wrap -mx-3 mt-6'>
 									<div className='w-full px-3'>
-                                      
-<a href="https://discord.com/api/oauth2/authorize?client_id=1049873528981295104&permissions=68608&scope=bot" target="_blank" rel="noreferrer">
 
-										<button className='btn text-white bg-indigo-600 hover:text-black w-full'>
-											Add to Discord
-										</button>
-                                        </a>
+										<a href="https://discord.com/api/oauth2/authorize?client_id=1049873528981295104&permissions=68608&scope=bot" target="_blank" rel="noreferrer">
+
+											<button className='btn text-white bg-primary hover:bg-primary-dark w-full'>
+												Add to Discord
+											</button>
+										</a>
 
 									</div>
 								</div>
 								<div className='flex flex-wrap -mx-3 mt-6'>
 									<div className='w-full px-3'>
-
-                                        
-
-										<button disabled className='btn text-white bg-cyan-600 w-full'>
+										<button disabled className='btn text-white bg-gray-900 hover:bg-gray-800 w-full'>
 											Add to Telegram (Coming Soon)
-
-
 										</button>
-
-                                        
 									</div>
 								</div>
 								{/* <div className='flex items-center my-6'>
