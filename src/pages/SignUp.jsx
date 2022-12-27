@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 
 import Header from '../partials/Header';
 import Banner from '../partials/Banner';
+import Logo from '../images/logo.png';
 
 function SignUp() {
 	return (
@@ -24,7 +25,7 @@ function SignUp() {
 								<h1 className='h1 flex items-center justify-center'>
 									<img
 										className="h-14"
-										src="https://i.imgur.com/lpPrluJ.png"
+										src={Logo}
 										alt=""
 									/> Lander
 								</h1>

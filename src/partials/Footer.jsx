@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Logo from '../images/logo.png';
 
 function Footer() {
   return (
@@ -14,7 +15,7 @@ function Footer() {
               <Link to="/" className="block" aria-label="">
               <img
                 className="h-8 md:h-10"
-                src="https://i.imgur.com/lpPrluJ.png"
+                src={Logo}
                 alt=""
               />
             </Link>

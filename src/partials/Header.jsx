@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
+import Logo from '../images/logo.png';
 
 function Header() {
   const [top, setTop] = useState(true);
@@ -20,18 +21,18 @@ function Header() {
     >
       <div className="max-w-6xl mx-auto px-5 sm:px-6">
         <div className="flex items-center justify-center gap-5 py-3">
-          <div className="flex-grow">
+          <div className="sm:flex-1 ">
             <Link to="/" className="flex items-center gap-1" aria-label="">
               <img
                 className="h-12 md:h-14"
-                src="https://i.imgur.com/lpPrluJ.png"
+                src={Logo}
                 alt=""
               />
               <span className="font-extrabold tracking-wide text-gray-900 text-3xl sm:block hidden">Lander</span>
             </Link>
           </div>
 
-          <div className="flex-grow flex items-center md:gap-12 sm:gap-8 gap-4 justify-center">
+          <div className="flex-1 flex items-center md:gap-12 sm:gap-8 gap-4 justify-center ">
             <Link to="/pricing" className="text-lg font-medium text-gray-900 hover:text-primary transition-colors ease-in-out duration-150">
               About
             </Link>
@@ -40,13 +41,13 @@ function Header() {
             </Link>
           </div>
 
-          <nav className="flex flex-grow">
+          <nav className="flex sm:flex-1 ">
             <ul className="flex flex-grow justify-end  gap-8 flex-wrap items-center">
               <li>
 
                 <Link
                   to="/signup"
-                  className="btn-sm sm:px-5 px-4 text-gray-100 bg-primary hover:bg-primary-dark ml-3"
+                  className="btn-sm sm:px-5 px-4 text-gray-100 bg-primary hover:bg-primary-dark ml-3 shrink-0"
                 >
                   <span>Sign Up</span>
                   <svg
