@@ -20,7 +20,7 @@ function Home() {
         <Problems />
         <FeaturesBlocks />
         <Testimonials />
-        <Newsletter />
+        {/* <Newsletter /> */}
       </main>
       <CTA />
       <Footer />

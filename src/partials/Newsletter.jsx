@@ -107,9 +107,9 @@ function Newsletter() {
 							</svg>
 						</div>
 
-						<div className='relative flex flex-col lg:flex-row justify-between items-center'>
+						{/* <div className='relative flex flex-col lg:flex-row justify-between items-center'> */}
 							{/* CTA content */}
-
+{/* 
 							<div className='flex flex-wrap -mx-3 mt-6'>
 								<div className='w-full px-3'>
 									<Link to='/signup'>
@@ -118,8 +118,8 @@ function Newsletter() {
 										</button>
 									</Link>
 								</div>
-							</div>
-						</div>
+							</div> */}
+						{/* </div> */}
 					</div>
 				</div>
 			</div>
