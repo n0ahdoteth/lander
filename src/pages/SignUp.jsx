@@ -1,15 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import Header from '../partials/Header';
 import Banner from '../partials/Banner';
 import Logo from '../images/logo.png';
+import Navbar from '../partials/navbar';
 
 function SignUp() {
 	return (
 		<div className='flex flex-col min-h-screen overflow-hidden'>
 			{/*  Site header */}
-			<Header />
+			<Navbar />
 
 			{/*  Page content */}
 			<main className='flex-grow'>

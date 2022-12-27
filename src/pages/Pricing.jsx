@@ -1,10 +1,10 @@
 import React from "react";
 import { CheckIcon } from '@heroicons/react/20/solid'
-import Header from '../partials/Header';
 import Footer from "../partials/Footer";
 import CTA from "../partials/cta";
 import FAQ from "../partials/FAQ";
 import Reviews from "../partials/Reviews";
+import Navbar from "../partials/navbar";
 
 const tiers = [
 
@@ -55,7 +55,7 @@ const tiers = [
 export default function Pricing() {
     return (
         <>
-            <Header />
+            <Navbar />
             <div className="bg-white">
                 <div className="mx-auto max-w-6xl xl:pt-40 lg:pt-36 sm:pt-32 pt-24 px-4 sm:px-6 lg:px-8">
                     <div className="sm:align-center sm:flex sm:flex-col">
