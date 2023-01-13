@@ -48,9 +48,6 @@ export default function Navbar() {
                             </Popover.Button>
                         </div>
                         <Popover.Group as="nav" className="hidden space-x-10 md:flex">
-                            <Link to="/pricing" className="text-lg font-medium text-gray-900 hover:text-primary transition-colors ease-in-out duration-150">
-                                About
-                            </Link>
                             <Link to="/pricing" className="text-lg font-medium text-gray-900 hover:text-primary transition-colors ease-in-out duration-150 ">
                                 Pricing
                             </Link>
@@ -114,12 +111,7 @@ export default function Navbar() {
                                             <Link to="/pricing" className="-m-3 flex items-center rounded-lg p-3 hover:bg-gray-50" >
                                                 <div className="ml-4 text-base font-medium text-gray-900">Pricing</div>
                                             </Link>
-                                            <Link to="/pricing" className="-m-3 flex items-center rounded-lg p-3 hover:bg-gray-50" >
-                                                <div className="ml-4 text-base font-medium text-gray-900">About</div>
-                                            </Link>
-                                            <Link to="/pricing" className="-m-3 flex items-center rounded-lg p-3 hover:bg-gray-50" >
-                                                <div className="ml-4 text-base font-medium text-gray-900">Contact</div>
-                                            </Link>
+                        
 
                                         </nav>
                                     </div>

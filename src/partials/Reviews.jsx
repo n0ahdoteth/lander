@@ -37,7 +37,7 @@ const reviews = [
 
 export default function Reviews() {
     return (
-        <div className="relative bg-white px-4 pt-12 pb-16 sm:px-6 lg:px-8 lg:pt-24 lg:pb-28">
+        <div className="relative bg-white pt-12 pb-16  lg:pt-24 lg:pb-28">
             <div className="relative mx-auto max-w-7xl">
                 <div className="text-center">
                     <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Don't take our word for it</h2>
@@ -50,7 +50,7 @@ export default function Reviews() {
                         <div key={review.title} className="flex flex-col overflow-hidden rounded">
                             <div className="flex flex-1 flex-col justify-between bg-white border border-gray-200 p-6">
 
-                                <div className="flex items-center">
+                                <div className="flex items-center sm:justify-start justify-center">
                                     <div className="flex-shrink-0 relative">
                                         <a href={review.author.href}>
                                             <span className="sr-only">{review.author.name}</span>
@@ -63,12 +63,12 @@ export default function Reviews() {
 
                                 </div>
                                 <div className="flex-1 mt-4">
-                                    <p className="text-base text-gray-600">{review.comment}</p>
+                                    <p className="text-base text-gray-600 sm:text-left text-center">{review.comment}</p>
                                 </div>
 
                                 <div className="w-full border-b border-gray-200 my-5"></div>
                               
-                                <div className="flex items-center gap-5">
+                                <div className="flex items-center sm:justify-start justify-between gap-5">
                                     <p className="text-base font-medium text-gray-900">
                                          {review.author.name}
                                     </p>

@@ -7,7 +7,7 @@ function Footer() {
     <footer>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         {/* Top area: Blocks */}
-        <div className="grid sm:grid-cols-12 gap-8 py-8 md:py-12 border-t border-gray-200">
+        <div className="grid sm:grid-cols-12 gap-8 sm:py-8 py-5 md:py-12 border-t border-gray-200">
           {/* 1st block */}
           <div className="sm:col-span-12 lg:col-span-12 items-center flex justify-between">
             <div className="mb-2">
